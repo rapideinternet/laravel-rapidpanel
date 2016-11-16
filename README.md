@@ -18,7 +18,7 @@ Rapide\RapidPanel\RapidPanelServiceProvider::class,
 
 $rpClient = new RapidPanelClient(['host' => 'rapidpanelserver.tld']);
 
-$rpCreateResponse = $rpClient->fetch(
+$domains = $rpClient->fetch(
     "admin",
     $rpClient->hashPassword("somepass"),
     [
