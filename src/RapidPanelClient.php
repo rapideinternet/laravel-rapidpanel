@@ -250,10 +250,4 @@ class RapidPanelClient
 
 		return $debug;
 	}
-
-	public function getDomains($username, $password, $arguments)
-	{
-		return $this->fetch($username, $password, $arguments);
-	}
-
 }
