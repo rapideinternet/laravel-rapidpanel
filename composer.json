@@ -1,0 +1,15 @@
+{
+    "name": "rapide/rapidpanel",
+    "description": "RapidPanel API client",
+    "type": "library",
+    "license": "Private",
+    "authors": [
+        {
+            "name": "Rens Reinders",
+            "email": "rens@rapide.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+}
