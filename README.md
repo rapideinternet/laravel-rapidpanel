@@ -10,12 +10,9 @@
 
 Rapide\RapidPanel\RapidPanelServiceProvider::class,
 
-* Add to aliases in config/app.php
-
-'RapidPanel' => Rapide\RapidPanel\RapidPanelServiceProvider::class,
-
 # Usage
 
+```
 $rpClient = new RapidPanelClient(['host' => 'rapidpanelserver.tld']);
 
 $domains = $rpClient->fetch(
@@ -26,3 +23,4 @@ $domains = $rpClient->fetch(
         'action' => 'show'
     ]
 );
+```
